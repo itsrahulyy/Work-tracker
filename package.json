@@ -1,0 +1,16 @@
+{
+  "name": "park-tracker",
+  "version": "1.0.0",
+  "description": "Google Sheets reminder runner with WATI, email, and Vercel cron support",
+  "scripts": {
+    "start": "node tracker.js",
+    "run": "node tracker.js",
+    "dry-run": "node tracker.js --dry-run",
+    "work": "node tracker.js --job=work-history",
+    "video": "node tracker.js --job=video-status"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "nodemailer": "^6.9.0"
+  }
+}
