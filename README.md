@@ -27,7 +27,7 @@ npm run video
 ## Vercel
 
 - Cron entrypoint: `/api/cron/reminders`
-- Current schedule in [vercel.json](/C:/Team_Autpmation/park-tracker/vercel.json): `0 4 * * *`
+- Current schedule in [vercel.json](/C:/Team_Autpmation/park-tracker/vercel.json): `30 13 * * *` (7:00 PM Asia/Calcutta)
 - Optional dry run in browser:
   - `/api/cron/reminders?dryRun=true`
 - Optional single job:
